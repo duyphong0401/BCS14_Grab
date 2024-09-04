@@ -156,7 +156,7 @@ document.getElementById("btnInHoaDon").onclick = function () {
   }
 
   // Thời gian chờ
-  let soLanPhat = Math.floor((thoiGianCho - 3) / 3); //1.423333
+  let soLanPhat = Math.floor((thoiGianCho - 3) / 3); //1.423333 ceil lam tron len
   tongTienDiChuyen += soLanPhat * tienPhatChoLau;
 
   document.querySelector(".modal-body").innerHTML = ` 
